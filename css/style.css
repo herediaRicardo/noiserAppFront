@@ -1,0 +1,213 @@
+    @font-face {
+        font-family: milker;
+        src: url(../assets/fonts/milker.otf);    
+    }
+    @font-face {
+        font-family: creato;
+        src: url(../assets/fonts/CreatoDisplay-Regular.otf);
+    }
+    *{
+        text-shadow: none;
+    }
+    .fondoPaginas{
+        background-image: url(../assets/img/fondo.png);
+    }
+    h1, h2, h3{
+        font-family: milker;
+        text-shadow: none;
+        text-align: center;
+        font-weight: lighter;
+    }
+    h4, p, span{
+        font-family: creato;
+        text-shadow: none;
+        text-align: left;
+    }
+    a:visited{
+        background-color: rgb(21, 21, 21);
+    }
+    a:active {
+        background-color: rgb(21, 21, 21);
+    } 
+    .menuDesplegable ul{
+        margin-top: 50px; border: 0px;
+    }
+    .menuDesplegable ul li a{
+        color: black; font-family: milker; text-shadow: none; font-size: 20px; font-weight: lighter;
+    }
+        .headerEncabezado{
+        background-color: black; padding: 1vh; text-align: center;
+    } header h1{
+        color: white;
+        font-size: 15px;
+        font-weight: lighter;
+    }.headerEncabezado a{
+        height: 100%;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } .headerEncabezado a img{
+        height: 40%;
+        width: 60%;
+    } .headerEncabezado .logo img{
+        margin-left: 5px;
+    }   
+
+    
+
+    /*
+    AUTORES
+    */
+    .gridContainer{
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .integranteImagen{
+        height: auto;
+        width: 60%;
+        max-width: 200px;
+        border-radius: 60%;
+    }
+    .gridContainer p{
+        text-align: center;
+    }
+    .gridContainer h2{
+        font-weight: lighter;
+    }
+
+
+
+    /*
+    PUBLICACIONES
+    */
+    .contenedorPublicacion {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+        margin: auto;
+        border-radius: 5px;
+        text-shadow: none;
+        background-color: rgb(19, 19, 19);
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.34);
+        margin-bottom: 20px;
+    }
+    #nickPublicacion{
+        font-size: 20px;
+        font-family: creato;
+        font-weight: bold;
+        padding: 4px 0px 4px 0px;
+        text-align: left;
+    }    
+    #imagenPublicacion {
+        width: 100%;
+        height: auto;
+        min-height: 250px; /* Fija la altura de la imagen por defecto */
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        overflow: hidden;
+    }    
+    .publicacion-media {
+        width: 100%;
+        height: auto;
+        max-height: 350px; /* Limita la altura máxima del contenido multimedia */
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+    }            
+    iframe.publicacion-media {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }    
+    .publicacion-comentarios {
+        margin-top: 10px;
+    }    
+    .publicacion-comentarios div {
+        margin-bottom: 10px;
+    }    
+    .publicacion-comentarios form {
+        margin-top: 10px;
+    }
+    
+    .comentario-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    /*
+    FORMULARIO REGISTRO
+    */
+
+    form{
+        width: 80%;
+        max-width: 400px;
+        margin: auto;
+        padding: 40px 0;
+        border-radius: 10px; 
+        text-shadow: none;
+        color: white;
+    }
+
+    .form{
+        width: 100%;
+        margin: auto;
+    }
+
+    form .grupo{
+        position: relative;
+        margin: 45;
+        box-shadow: none;
+        text-shadow: none;
+    }
+
+    input{
+        text-shadow: none;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid var(--colorTextos);
+    }
+
+    input:focus{
+        outline: none;
+        color: black;
+        font-family: creato;
+    }
+
+
+    #botonRegistrarse{
+        height: 70px;
+        width: 200px;
+        margin: auto;
+        margin-top: 5px;
+        background-color: #E73189;
+        box-shadow: none;
+        border: none;
+        color: white;
+        font-family: creato;
+        
+    }
+
+    #iniciarSesion{
+        height: 50px;
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: none;
+        border: none;
+        color: black;
+        font-family: creato;
+        
+    }
